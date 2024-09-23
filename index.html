@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shadow fiend</title>
     <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -14,17 +16,18 @@
                 <input type="text" class="search" placeholder="Search Rolling">
 
                 <div class="menu">
-                    <a href="https://pornhub.com/">Explore</a>
-                    <a href="https://imgur.com/n4H47i8">Activity</a>
-                    <a href="">Feed</a>
-                    <a href="">Birds</a>
+                    <a href="#">Explore</a>
+                    <a href="#">Activity</a>
+                    <a href="#">Feed</a>
+                    <a href="#">Birds</a>
                 </div>
 
-                    <img src="./img/lightning.svg" alt="" class="icon1">
+                <img src="./img/lightning.svg" alt="" class="icon1">
 
-                    <button class="btn">Connect Wallet</button>
+                <button id="modalBtn" class="btn">Connect Wallet</button>
 
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/800px-Hamburger_icon.svg.png" alt="" class="burger">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/800px-Hamburger_icon.svg.png"
+                    alt="" class="burger">
             </nav>
         </div>
     </header>
@@ -45,6 +48,70 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper">
+                <div class="input">
+                    <h3 class="input__text">Get the latest Rolling updates</h3>
+                    <div class="input__mini">
+                        <input type="text" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="rolling">
+                    <h3>Rolling</h3>
+                    <a href="">Explore</a>
+                    <a href="">Blog</a>
+                    <a href="">About us</a>
+                    <a href="">Become a partner</a>
+                </div>
+
+                <div class="community">
+                    <h3>Community</h3>
+                    <a href="">Community Guidelines</a>
+                    <a href="">Roll Token</a>
+                    <a href="">Discussion</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper2">
+            <div class="container">
+                <div class="ri">
+                    <div class="roll">
+                        <b>Rolling</b>
+                        <a href="">Terms of Service</a>
+                        <a href="">Privacy</a>
+                    </div>
+
+                    <div class="images">
+                        <img src="./img/Vector (1).svg" alt="">
+                        <img src="./img/Vector (2).svg" alt="">
+                        <img src="./img/Vector (3).svg" alt="">
+                        <img src="./img/Vector (4).svg" alt="">
+                        <img src="./img/Vector (5).svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__box">
+            <h6 id="closeBtn">X</h6>
+            <h3>Свяжитесь с нами</h3>
+            <p>Если у вас есть вопросы, то просто заполните форму и мы свяжемся с вами</p>
+
+            <form action="">
+                <input placeholder="Ваше Имя" type="text">
+                <input placeholder="Ваш номер телефона" type="text">
+                <button>Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
     <script src="./script.js"></script>
 </body>
+
 </html>
